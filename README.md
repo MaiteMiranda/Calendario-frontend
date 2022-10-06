@@ -6,17 +6,17 @@
 ### los eventos se pueden visualizar por mes, día, semana y en una especie de agenda, estos se pueden actualizar y ### eliminar. 
 
 # ▸Realizado en MERN 
-### *-MongoDB
-### *-Express JS
-### *-React JS
-### *-Node JS
+### *MongoDB
+### *Express JS
+### *React JS
+### *Node JS
 
 # ▸Inicialización
-### *-Front-end ➞ (yarn dev)
-### *-Back-end ➞ (npm run dev)
+### *Front-end ➞ (yarn dev)
+### *Back-end ➞ (npm run dev)
 
 
-![HomeCalendario](./src/img/loginyregistro.jpg.jpg)
+![HomeCalendario](./src/img/loginyregistro.jpg)
 ![HomeCalendario](./src/img/home.jpg)
 ![HomeCalendario](./src/img/modal.jpg)
 ![HomeCalendario](./src/img/mes.jpg)
