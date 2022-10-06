@@ -1,0 +1,95 @@
+.ReactModalPortal > div{
+    opacity: 0;
+  }
+  
+  .ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity .2s ease-in-out;
+    z-index: 999;
+  }
+  
+  .modal-fondo {
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+  }
+  
+  .ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+  
+  .ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+  }
+  
+  .modal {
+    background: white;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    display: inline;
+    max-height: 620px;
+    max-width: 500px;
+    outline: none;
+    padding: 10px;
+  }
+  
+  .fab {
+    border-radius: 100%;
+    bottom: 30px;
+    font-size: 22px;
+    padding: 23px;
+    position: fixed;
+    right: 50px;
+  }
+  
+  .fab-danger {
+    border-radius: 100%;
+    bottom: 30px;
+    font-size: 20px;
+    position: fixed;
+    left: 50px;
+    width: 70px;
+    height: 70px;
+  
+  }
+
+  .fas.fa-calendar-alt{
+    color: #5c6085;
+    margin-right: 10px;
+  }
+
+div.navbar.navbar-dark.bg-dark{
+    background-color: #060606 !important; 
+  }
+
+
+#boton-guardar{
+  margin-left: 7px;
+  
+}
+
+.navbar-brand{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+}
+
+.rbc-today {
+  background-color: #cfd4ea;
+}
+
+.rbc-day-slot .rbc-time-slot {
+  border: 0px solid #cfd4ea;
+}
+
+
+/* .color1 {color: #060606;}
+.color2 {color: #28293d;}
+.color3 {color: #5c6085;}
+.color4 {color: #96a0da;}
+.color5 {color: #cfd4ea;} */
